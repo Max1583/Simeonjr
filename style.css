@@ -443,7 +443,7 @@ a {
 
 footer {
     text-align:center;
-    
+    justify-content:center;
     padding-top: 20px;
     margin-top: -2px;
     display: flex;
