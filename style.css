@@ -1,625 +1,384 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: whitesmoke;
-
-}
-header{
-    position: ; 
-    z-index: 100022;
-    
-
-}
-
-/* styling sticky nav button*/
-.fa-bars {
-    padding-left: 10px;
-    padding-top: 5px;
-    font-size: 25px;
-    color: white;
-}
-
-.nav-bar {
-    background: transparent;
-    position: fixed;
-    text-align: right;
-    right: 0;
-    float: right; ;
-    z-index: 1000;
-}
-
-.menu {
-
-    font-size: 20px;
-    color: rgb(57, 181, 74);
-
-
-}
-
-.menu:hover {
-    color: white;
-    transition: all .3s ease-in-out;
-}
-
-.sticky_menu {
-    cursor: pointer;
-    padding: 10px 20px;
-    background: black;
-    width: fit-content;
-    float: right;
-    margin: 20px 30px 0px auto;
-}
-
-/* styling side nav bar*/
-
-#full_page_menu {
-   
-    position: fixed;
-    z-index: 1061;
-    right: 0;
-    display: none;
-    width: 280px;
-    background: rgb(12, 12, 12);
-    color: white;
-    margin-left: auto;
-    height: 100vh;
-    transition: width 2s;
-}
-
-#header_links {
-    font-size: 1.3rem;
-    display: flex;
-    flex-direction: column;
-    padding-top:100px ;
-
-}
-
-#header_links a {
-    padding: 20px 30px;
-    text-decoration: none;
-    color: white !important;
-}
-
-#header_links a:hover {
-    color: grey !important;
-}
-
-#remove_button {
-    background: black;
-    float: right;
-    padding: 20px;
-    font-size: 1.3rem;
-    border-radius: 10px;
-}
-.nav_txt{
-    color: rgb(57, 181, 74);
-    position: absolute; 
-    top: 0;
-    padding: 20px;
-}
-
-/* styling  nav social icons*/
-
-.side_bar_socials {
-    color: grey;
-    margin-top: 70px;
-}
-.side_bar_socials  a{
-    text-decoration: none;
-   padding: 5px;
-   font-size: 20px;
-   margin-left: 30px;
-}
-.side_bar_socials  a:hover{
-color: whitesmoke;
- }
- /* styling logo*/
-#logo{
-    width: 180px;
-
-    margin: 20px 0px 0px 20px ;
-}
-/* styling  top_page_background*/
-.top_page_background{
-    background: url(https://i.ibb.co/rbLzCns/annie-spratt-uv-MYp-Vdiql-U-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    
-}
-/* styling  top_page_background   text*/
-.top_page_background_text{
-  display:flex ;
-  flex-direction: column;
-  justify-content: center;
- margin-top: 20vh;
-    color: whitesmoke;
-
-}
- .top_page_background h3{
-     font-size: 3rem;
-     font-style: italic;
-     text-align: center;
-     margin: 0px 30px;
-     font-weight: 400;
-
-
- }
- .top_page_background button{
-    color: whitesmoke;
-    text-align: center;
-    background: transparent;
-    border: 2px solid white;
-    padding: 10px;
-    width: fit-content;
-    margin: auto;
-    margin-top: 10PX;
-    cursor: pointer;
-    display: inline;
-
- 
-}
-.top_page_background button:hover{
-    color: black;
-    transition: all .5s ease-in-out;
-    background: whitesmoke;
-    
-}
-
-/* styling  front_bar_socials*/
-
-
-.front_bar_socials{
-display:flex ;
-flex-direction: column;
-position: absolute; 
-right: 0;
-top: 40%;
-margin-right: 20px;
-}
-.front_bar_socials a{
-    color: whitesmoke;
-    padding: 3px 8px;
-    font-size: 1.5rem;
-    margin: 5px;
-    }
-
-/* styling  section 2  */
-
-#about{
-    padding: 0px;
-    height: ;
-    text-align: center;
-    margin-top: 0px;
-    background-color: #39b54a;
-    
-    display: flex;
-    flex-direction: column;
-
-}
-#about h4{
-    font-size: 15px;
-    margin-top: -17px;
-    color: whitesmoke;
-
-
-}
-#about h2{
-    font-size: 30px;
-    margin-top: 30px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    
-}
-.about_text{
-    font-family: 'Lora', serif;
-
-    font-size: 1.6rem;
-    margin: 10px 50px;
-}
-.skills h2{
-    font-family: 'Eczar', serif;
-    font-weight: 500;
-    font-size: 30px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    text-align: left;
-}
-.skills h3{
-   color: whitesmoke;
-}
-#skill_bars{
-    width: 60vw;
-    margin: auto;
-}
-.projects{
-    display:flex ;
-    text-align: center;
-    
-    margin: auto;
-}
-.projects div{
-    margin: 50px;
-}
-.projects h2{
-    color: whitesmoke;
-    font-size: 30px;
-}
-
-
-
-hr{
-    width: 50%;
-    margin: auto;
-}
-
-.our_services{
-    background-color: whitesmoke;
-
-    width: 100%;
-    text-align: center;
-    display: flex;
-border-bottom: 3px solid whitesmoke;
-}
-.our_services div{
-    flex: 1;
-    box-sizing: border-box;
-    margin:0px 40px;
-   
-    
-}
-
-.our_services h3{
-    
-    width: fit-content;
-    padding: 0px 10px;
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-    margin: auto;
-}
-
-.our_services p{
-    color: grey;
-    }
-.service_4 {
-    
-    padding:40px 10px 40px 10px;
-    color: grey;
-
-
-}
-.service_3{
-    padding:40px 10px 10px 10px;
-    color: grey;    
-
-}
-.service_2 {
-    color: grey;    padding:40px 10px 10px 10px;
-
-
-
-}
-.service_1 {
-    padding:40px 10px 10px 10px;
-    color: grey;   
-
-
-}   
-
-
-#svg{
-    width: 50px;
-}
-
-#works{
-    background: #151515;
-
-}
-.grid{
-    z-index: 100;
-  margin: 0px 150px;
-  padding-bottom: 20px;
-    display: grid;
-    grid-template-columns:  repeat(auto);
-    grid-template-rows:auto;
-    grid-gap: 0px;
-
-    grid-template-areas:
-    "a a a a b b b b"
-    "a a a a b b b b"
-    "c c c c b b b b"
-    "c c c c d d d d"
-    "e e e e d d d d"
-    "e e e e f f f f"
-    "g g g g f f f f"
-    "g g g g h h h h"
-    ;
-}
-
-.grid_image_1{
-grid-area:a ;
-}
-.grid_image_2{
-    grid-area:b ;
-
-}
-.grid_image_3{
-    grid-area:c ;
-
-}
-.grid_image_4{
-    grid-area:d ;
-
-}
-.grid_image_5{
-    grid-area:e ;
-
-}
-.grid_image_6{
-    grid-area:f ;
-
-}
-.grid_image_7{
-    grid-area:g ;
-}
-.grid_image_8{
-    grid-area:h;
-}
-.grid_images{
-height: 100%;
-width:100%;
-}
-#works h2{
-    color:#39b54a;
-    font-weight: 700;
-    text-align: center;
-    margin: 30px 0px;
-}
-#contact{
-    margin-top: 0px;
-
-}
-a{
-    text-decoration: none;
-}
-#contact h2{
-    text-align: center;
-    font-weight: ;
-   
-}
-#contact div{
-
-
-
-   background-color:#39b54a;
-   color: whitesmoke;
-   width: fit-content;
-   padding:10px;
-   margin: auto;
-}
-
-footer{
-    padding-top: 20px;
-    margin-top: -2px;
-    background: url(https://i.ibb.co/WkN38D5/contact-bg.jpg);
-display: flex;
-    color: whitesmoke;
-}
-.bg{
-    width: fit-content;
-    padding: 3rem 3rem 0 3rem;
-    margin: auto;
-    background: #151515;
-}
-#info{
-    width: fit-content;
-    margin: auto;
-    text-align: center;
-  margin-top: -30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-footer h4,p{
-    text-align: center;
-}
-#info h4{
-   color: whitesmoke;
-    font-size: 1rem;
-}
-#info h3{
-    font-size: 1rem;
-    color:#39b54a ;
-}
-#info div{
-    margin: 20px;
-}
-footer aside{
-
-}
-
-#foot_logo{
-    width: 180px;
-
-    margin: 20px 0px 20px 20px ;
-}
-div h5{
-    font-size: 18px;
-}
-
-
-.copytight{
-    margin-top: 20px;
-    font-size: 15px;
-    bottom: 0;
-    text-align: center;
-    font-weight: 100;
-    font-family: 'Open Sans Condensed', sans-serif;
-
-    
-}
-.send_message{
-    width: fit-content;
-    margin: auto;
-
-}
-.send_message:hover{
-    transition: all .5s ease-in-out;
-   color: #39b54a;
-   background: whitesmoke;
-    
-}
-.fa-arrow-up{
-    color: #39b54a;
-background: #111111;
-padding: 15px 12px;
-font-size: 25px;
-border-radius: 2px;
-
-    
-}
-.fa-arrow-up:hover{
-    color: whitesmoke;
-background: #111111;
-
-
-    
-}
-.top{
-   position: fixed; 
-right: 0;
-bottom:50px;
-margin: 30px;
-
-}
-
-.divi2{
-background:#39b54a ;
-height: 10px;
-width: 90px;
-border-radius:0px 10px 10px 0px;
-transform: rotate(90deg);
-margin-left:20px ;
-margin-top: 14px;
-}
-
-.divi1{
-    background:whitesmoke ;
-    height: 10px;
-    width: 150px;
-    border-radius:10px 0px  0px 10px;
-    transform: rotate(90deg);
-}
-
-.divi3{
-    background: #151515; 
-    height: 10px;
-    width: 40px;
-    border-radius:10px 0px 0px 10px;
-    transform: rotate(90deg);
-    margin-left:20px ;
-    margin-top: 14px;
-    }
-    
-    .divi4{
-        background:whitesmoke ;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://svgshare.com/i/SjY.svg"/>
+
+</head>
+   <div id="here">
+
+   </div>
+
+
+
+<div class="top" style="z-index: 100;">
+    <a href="#here">
+    <i class="fa fa-arrow-up"></i>
+</a>
+</div>
+<header>
+ <!-- Sidebar -->
+ <nav id="full_page_menu">
+
+    <a href="javascript:void(0)"  onclick="w3_close()">
+        <i class="fa fa-remove" id="remove_button"></i>
+    </a>
+    <span class="nav_txt">Navigation</span>
+    <div id="header_links">
+        <a href="#about"  onclick="w3_close()">About</a>
+        <a href="#services"  onclick="w3_close()">Services</a>
+        <a href="#works"  onclick="w3_close()">Works</a>
+        <a href="https://forms.zohopublic.com/simeonjrstudi/form/Contactus/formperma/7Vyz5tj593a70JuRi8pyJNmwu92kLwMD2xmj5JK4L5c"  target="blank" onclick="w3_close()">Contact</a>
+    </div>
+
+
+    <div class="side_bar_socials">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""> <i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-snapchat"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+
+    </div>
+
+</nav>
+<nav class="nav-bar" onclick="w3_open()">
+    <div class="sticky_menu">
+        <div id="navbar"><span class="menu">Menu</span><i class="fa fa-bars"></i></div>
+
+    </div>
+</nav>
+</header>
+
+<body>
+
+    <div class="top_page_background">
+        <img src="https://i.ibb.co/tbVFNpz/Asset-22logo1234.png" alt="" id="logo">
+        <section class="top_page_background_text   animate__animated animate__fadeInUp animate__slower	">
+            <h3>
+                CAPTURING YOUR MOST PRECIOUS MOMENTS.
+            </h3>
+            <hr>
+            <button id="button "  onclick="noBorder()">
+              <a href="https://forms.zohopublic.com/simeonjrstudi/form/STARTAPROJECTWITHME/formperma/7h25MHKQohKGLHHZEaGVPSYlq0f74czMivlPMk2yD6Q " target="blank">  START A PROJECT WITH ME</a>
+            </button>
+        </section>
+            
+        <div class="front_bar_socials">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""> <i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-snapchat"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+
+        </div>
+    </div>
+
+
+<main id="about">
+    <h2>
+        Hi,I'm Damilare Simeon
         
-        height: 10px;
-        margin-top: 20px;
-        width: 60px;
-        border-radius:0px 10px 10px 0px;
-        transform: rotate(90deg);
-    }
-
-
-
-
-
-
-
-
-@media only screen and (max-width:600px){
-    .front_bar_socials{
-        display:none ;
-    }
-    .projects{
-        display:flex ;
+    </h2>
+    <h4>
+        Photographer and Cinematographer
         
-        flex-direction: column;
+    </h4>
+<hr style="width: 40%;">
+<p class="about_text">
+    I am a fashion and commercial photographer and retoucher based in Lagos, Nigeria.
+    <br>
+I take great pride in finding new ways to reveal true beauty in the people and world around us, while challenging the way we think about beauty.
+ </p>
+    <div class="skills">
+<h2>
 
-        margin: auto;
-    }
-    .projects div{
-        margin: 20px;
-    }
-    .divider_hr{
-        display:none ;
-    }
-    .our_services{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
+        MY SKILLS
+    </h2>
+        <H3>
+            Photoshop
+        </H3>
+        <div class="w3-light-grey" id="skill_bars">
+            
+            <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+          </div><br>
+          <H3>
+            Cinematography
+        </H3>
+          <div class="w3-light-grey" id="skill_bars">
+            <div class="w3-container w3-dark-grey w3-center" style="width:72%">72%</div>
+          </div><br>
+          <H3>
+            Photography
+        </H3>
+          <div class="w3-light-grey" id="skill_bars">
+            <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+          </div><br>
+          
+          </div>
+    </div>
+    <div class="projects">
+<div>
+    <h2>
+        110 
+     </h2>
+     <h3>
+         Projects Completed
+     
+     </h3>
+</div>
+<hr style="transform: rotate(90deg);" class="divider_hr">
+
+        <div style="flex: 1;">
+            <h2>
+                102
+             </h2>
+             <h3>
+                Happy Clients
     
-    }
-    .th{
-        display: block;
-    }
-    .grid{
-        margin: 0px 50px;
+             </h3>
+        </div>
+    </div>
+    </div>
 
-    }
-    #info{
-       
-        flex-direction: column;
-    }
- 
-}
-#foot_logo{
-    width: 130px;
+
+
+
+</main>
+<div class="divi1">
+
+</div>
+<div class="divi2">
+
+</div>
+
+<div style="float: right;margin-top: -35px;">
+    <div class="divi1">
+
+    </div>
+    <div class="divi2">
     
-}
-
-@media only screen and (max-width:400px){
-    .menu{
-        display:none ;
-    }
-    #logo{
-        width: 130px;
-    }
-    .nav-bar{
-        padding: 2px;
-    }
-    .fa-bars {
-        padding-left: 2px;
-        padding-top: 5px;
-    }
-    .sticky_menu {
-       
-        padding: 5px 10px;
-
-    }
-    .top_page_background h3{
-     font-size: 2rem;
-        
-        
-    }
-}
-
-
-
-
-
-
-@media only screen and (max-height:400px){
-    .top_page_background_text{
+    </div>
     
-       margin-top: 0px;
+</div>
+<div id="services">
+    <h3 style="color: rgb(57, 181, 74); font-weight: 800;text-align: center;margin-top: 50px;background-color: ;">
+        WHAT WE DO
+    </h3>
+    <section class="our_services">
       
-      }
-}
+        <article>
+         <div class="service_1 w3-hover-shadow" >
+             <h3>
+              <span><img src="https://i.ibb.co/tDZRhRR/drone.png" alt="" id="svg"></span>   Drone Photography
+             </h3>
+             
+             <p>
+                <li>
+                    Stunning Aerial Photography
+                </li>
+                <li>
+                    High Resolution Aerial Video
+                </li>
+                <li>
+                    Professional Editing/Production
+                </li>
+                <li>
+                    Interactive 3d Maps & Visualization
+                </li>
+             </p>
+         </div>
+         <hr >
+         <div class="service_2 w3-hover-shadow">
+             <h3>
+               <span><img src="https://i.ibb.co/6ZHBPnN/wedding-couple.png" alt=""  id="svg"> </span>  Wedding Photography
+             </h3>
+           
+             <p>
+                 Wedding photographs give an excellent opportunity to experience the joyful moments of the special day again and again.
+             </p>
+         </div>
+        </article>
+        <hr class="th" style="display: none;">
+
+             <article>
+                 <div class="service_3 w3-hover-shadow">
+                     <h3>
+                     <span> <img src="https://i.ibb.co/F7zD0XQ/ads-1.png" alt=""  id="svg"> </span>    Advertising Photography
+                     </h3>
+                    
+                     <p>
+                         An advertising photo - is the promotion of your company in the market, winning the presentation of goods and services.
+                     </p>
+                 </div>
+         <hr>
+
+                 <div class="service_4 w3-hover-shadow">
+                     <h3>
+                       <span> <img src="https://i.ibb.co/T2Hyzx7/film.png" alt=""  id="svg"> </span> Video Productions
+                     </h3>
+                    
+                     <li>
+                         Cinematography
+                     </li>
+                     <li>
+                         Post Production
+                     </li>
+                     <li>
+                         Professional Video Editing
+                     </li>
+                 </div>
+             </article>
+     
+     
+     
+         </section>
+</div>
+
+
+<div style=" float: left;  " >
+    <div class="divi3" style="margin-top: 20px;width: 50px;" >
+
+    </div>
+    <div class="divi4" style="width: 70px;">
+    
+    </div>
+</div>
+
+<div style="float: right;margin-right:20px ;z-index: 10;">
+    <div class="divi3">
+
+    </div>
+    <div class="divi4">
+    
+    </div>
+    
+</div>
+
+<section id="works">
+<h2>
+    RECENT WORKS
+</h2>
+
+
+<div class="grid">
+<div class="grid_image_1">
+    <img src="https://i.ibb.co/PgJF539/s-3.jpg" alt="" class="grid_images" >
+</div>
+<div class="grid_image_2">
+    <img src="https://i.ibb.co/NVC94rX/s-46.jpg" alt="" class="grid_images">
+</div>
+
+<div class="grid_image_3">
+    <img src="https://i.ibb.co/9vzCyYw/s-29.jpg " alt="" class="grid_images">
+</div>
+<div class="grid_image_4">
+    <img src="https://i.ibb.co/7XPRDKf/s-14.jpg" alt="" class="grid_images">
+</div>
+<div class="grid_image_5">
+<img src="https://i.ibb.co/dGN5D1L/s-35.jpg" alt="" class="grid_images">
+</div>
+<div class="grid_image_6">
+<img src="https://i.ibb.co/phs2cZs/s-30.jpg" alt="" class="grid_images">
+</div>
+<div class="grid_image_7">
+    <img src="https://i.ibb.co/LRNG7Qx/s-47.jpg" alt="" class="grid_images">
+    </div>
+    <div class="grid_image_8">
+        <img src="https://i.ibb.co/cFsG1c1/s-24.jpg" alt="" class="grid_images">
+        </div>
+
+
+</div>
+
+</section>
+
+
+
+
+<footer>
+  
+<div class="bg">
+    
+<section id="contact">
+
+    <h4>
+        Reach out for a new project or  just say hello✋
+    </h4>
+    <a  href="https://forms.zohopublic.com/simeonjrstudi/form/Contactus/formperma/7Vyz5tj593a70JuRi8pyJNmwu92kLwMD2xmj5JK4L5c" target="blank"><div class="send_message">
+Send Us a Message    </div></a>
+    
+    </section>  
+    <br>
+    <p style="padding-top:20px; color: #39b54a; font-size: 20px; width: fit-content;margin: auto; border-bottom: #39b54a solid 1px;margin-bottom: 20px;"> CONTACT INFO</p> 
+    <aside id="info">
+      
+<div>
+
+    <h3> <i class="fa fa-location-arrow"></i></h3>
+<h5>
+   <a href="https://goo.gl/maps/xkuit2vDUkEAGgNx9"> Lagos,Nigeria</a>
+</h5>
+</div>
+
+<div>
+    <h3> <i class="fa fa-envelope"></i></h3>
+<h5>
+   <a href=" mailto:damilareafolabi188@gmail.com ">  damilareafolabi188@gmail.com</a>
+ </h5>
+</div>
+
+<div>
+    <h3><i class="fa fa-phone"></i></h3>
+<h5>   <a href="tel:+2348060055578"> +234 806 005 5578</a> </h5>
+</div>
+
+
+    </aside>
+    <div class="copytight">
+    <i class="fa fa-copyright " style="color: #39b54a;padding-right: 5px;"></i><span>Simeon Jr Studio 2021</span>
+        </div>
+</div>
+
+</footer>
+
+
+
+
+
+    <script>
+        // Open and close sidebar 
+        function w3_open() {
+            document.getElementById("full_page_menu").style.width = "280px";
+            document.getElementById("full_page_menu").style.display = "block";
+           
+        }
+
+        function w3_close() {
+
+            document.getElementById("full_page_menu").style.display = "none";
+        }
+        function noBorder(){
+            document.getElementById("button").style.border = "none";
+
+        }
+
+        AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000 // values from 0 to 3000, with step 50ms
+      });
+    </script>
+    
+    
+
+</body>
+
+</html>
