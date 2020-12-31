@@ -2,15 +2,27 @@
 <html lang="en">
 
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="newme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-   
+   <div id="here">
+
+   </div>
+
+
+
+<div class="top" style="z-index: 100;">
+    <a href="#here">
+    <i class="fa fa-arrow-up"></i>
+</a>
+</div>
 <header>
  <!-- Sidebar -->
  <nav id="full_page_menu">
@@ -54,7 +66,7 @@
             </h3>
             <hr>
             <button id="button "  onclick="noBorder()">
-                START A PROJECT WITH ME
+              <a href="https://forms.zohopublic.com/simeonjrstudi/form/STARTAPROJECTWITHME/formperma/7h25MHKQohKGLHHZEaGVPSYlq0f74czMivlPMk2yD6Q " target="blank">  START A PROJECT WITH ME</a>
             </button>
         </section>
             
@@ -138,9 +150,22 @@ I take great pride in finding new ways to reveal true beauty in the people and w
 
 
 </main>
+<div class="divi1">
 
+</div>
+<div class="divi2">
 
+</div>
 
+<div style="float: right;margin-top: -35px;">
+    <div class="divi1">
+
+    </div>
+    <div class="divi2">
+    
+    </div>
+    
+</div>
 <div id="services">
     <h3 style="color: rgb(57, 181, 74); font-weight: 800;text-align: center;margin-top: 50px;background-color: ;">
         WHAT WE DO
@@ -148,7 +173,7 @@ I take great pride in finding new ways to reveal true beauty in the people and w
     <section class="our_services">
       
         <article>
-         <div class="service_1 w3-hover-shadow">
+         <div class="service_1 w3-hover-shadow" >
              <h3>
               <span><img src="https://i.ibb.co/tDZRhRR/drone.png" alt="" id="svg"></span>   Drone Photography
              </h3>
@@ -216,7 +241,24 @@ I take great pride in finding new ways to reveal true beauty in the people and w
 </div>
 
 
+<div style=" float: left;  " >
+    <div class="divi3" style="margin-top: 20px;width: 50px;" >
 
+    </div>
+    <div class="divi4" style="width: 70px;">
+    
+    </div>
+</div>
+
+<div style="float: right;margin-right:20px ;z-index: 10;">
+    <div class="divi3">
+
+    </div>
+    <div class="divi4">
+    
+    </div>
+    
+</div>
 
 <section id="works">
 <h2>
@@ -308,6 +350,7 @@ Send Us a Message    </div></a>
 
 
 
+
     <script>
         // Open and close sidebar 
         function w3_open() {
@@ -324,8 +367,16 @@ Send Us a Message    </div></a>
             document.getElementById("button").style.border = "none";
 
         }
+
+        AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000 // values from 0 to 3000, with step 50ms
+      });
     </script>
     
+    
+
 </body>
 
 </html>
