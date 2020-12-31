@@ -448,14 +448,13 @@ a {
 footer {
     padding-top: 20px;
     margin-top: -2px;
-    background: url(https://i.ibb.co/WkN38D5/contact-bg.jpg);
     display: flex;
     color: whitesmoke;
 }
 
 .bg {
     width: fit-content;
-    padding: 3rem 3rem 0 3rem;
+    padding: 50px 50px  0 50px;
     margin: auto;
     background: #151515;
 }
@@ -502,7 +501,7 @@ div h5 {
     bottom: 0;
     text-align: center;
     font-weight: 100;
-    font-family: 'Open Sans Condensed', sans-serif;
+    
 
 
 }
