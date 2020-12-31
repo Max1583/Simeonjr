@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+
+}
+header{
+    position: ; 
+    z-index: 100022;
+    
+
+}
+
+/* styling sticky nav button*/
+.fa-bars {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-bar {
+    background: transparent;
+    position: fixed;
+    text-align: right;
+    right: 0;
+    float: right; ;
+    z-index: 1000;
+}
+
+.menu {
+
+    font-size: 20px;
+    color: rgb(57, 181, 74);
+
+
+}
+
+.menu:hover {
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.sticky_menu {
+    cursor: pointer;
+    padding: 10px 20px;
+    background: black;
+    width: fit-content;
+    float: right;
+    margin: 20px 30px 0px auto;
+}
+
+/* styling side nav bar*/
+
+#full_page_menu {
+   
+    position: fixed;
+    z-index: 1061;
+    right: 0;
+    display: none;
+    width: 280px;
+    background: rgb(12, 12, 12);
+    color: white;
+    margin-left: auto;
+    height: 100vh;
+    transition: width 2s;
+}
+
+#header_links {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    padding-top:100px ;
+
+}
+
+#header_links a {
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white !important;
+}
+
+#header_links a:hover {
+    color: grey !important;
+}
+
+#remove_button {
+    background: black;
+    float: right;
+    padding: 20px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+.nav_txt{
+    color: rgb(57, 181, 74);
+    position: absolute; 
+    top: 0;
+    padding: 20px;
+}
+
+/* styling  nav social icons*/
+
+.side_bar_socials {
+    color: grey;
+    margin-top: 70px;
+}
+.side_bar_socials  a{
+    text-decoration: none;
+   padding: 5px;
+   font-size: 20px;
+   margin-left: 30px;
+}
+.side_bar_socials  a:hover{
+color: whitesmoke;
+ }
+ /* styling logo*/
+#logo{
+    width: 180px;
+
+    margin: 20px 0px 0px 20px ;
+}
+/* styling  top_page_background*/
+.top_page_background{
+    background: url(https://i.ibb.co/rbLzCns/annie-spratt-uv-MYp-Vdiql-U-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+/* styling  top_page_background   text*/
+.top_page_background_text{
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+ margin-top: 20vh;
+    color: whitesmoke;
+
+}
+ .top_page_background h3{
+     font-size: 3rem;
+     font-style: italic;
+     text-align: center;
+     margin: 0px 30px;
+     font-weight: 400;
+
+
+ }
+ .top_page_background button{
+    color: whitesmoke;
+    text-align: center;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10PX;
+    cursor: pointer;
+    display: inline;
+
+ 
+}
+.top_page_background button:hover{
+    color: black;
+    transition: all .5s ease-in-out;
+    background: whitesmoke;
+    
+}
+
+/* styling  front_bar_socials*/
+
+
+.front_bar_socials{
+display:flex ;
+flex-direction: column;
+position: absolute; 
+right: 0;
+top: 40%;
+margin-right: 20px;
+}
+.front_bar_socials a{
+    color: whitesmoke;
+    padding: 3px 8px;
+    font-size: 1.5rem;
+    margin: 5px;
+    }
+
+/* styling  section 2  */
+
+#about{
+    padding: 0px;
+    height: ;
+    text-align: center;
+    margin-top: 0px;
+    background-color: #39b54a;
+    display: flex;
+    flex-direction: column;
+
+}
+#about h4{
+    font-size: 15px;
+    margin-top: -17px;
+    color: whitesmoke;
+
+
+}
+#about h2{
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.about_text{
+    font-family: 'Lora', serif;
+
+    font-size: 1.6rem;
+    margin: 10px 50px;
+}
+.skills h2{
+    font-family: 'Eczar', serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-align: left;
+}
+.skills h3{
+   color: whitesmoke;
+}
+#skill_bars{
+    width: 60vw;
+    margin: auto;
+}
+.projects{
+    display:flex ;
+    text-align: center;
+    
+    margin: auto;
+}
+.projects div{
+    margin: 50px;
+}
+.projects h2{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+
+
+hr{
+    width: 50%;
+    margin: auto;
+}
+
+.our_services{
+    background-color: whitesmoke;
+
+    width: 100%;
+    text-align: center;
+    display: flex;
+border-bottom: 3px solid whitesmoke;
+}
+.our_services div{
+    flex: 1;
+    box-sizing: border-box;
+    margin:0px 40px;
+   
+    
+}
+
+.our_services h3{
+    
+    width: fit-content;
+    padding: 0px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin: auto;
+}
+
+.our_services p{
+    color: grey;
+    }
+.service_4 {
+    
+    padding:40px 10px 40px 10px;
+    color: grey;
+
+
+}
+.service_3{
+    padding:40px 10px 10px 10px;
+    color: grey;    
+
+}
+.service_2 {
+    color: grey;    padding:40px 10px 10px 10px;
+
+
+
+}
+.service_1 {
+    padding:40px 10px 10px 10px;
+    color: grey;   
+
+
+}   
+
+
+#svg{
+    width: 50px;
+}
+
+#works{
+    background: #151515;
+
+}
+.grid{
+    z-index: 100;
+  margin: 0px 150px;
+  padding-bottom: 20px;
+    display: grid;
+    grid-template-columns:  repeat(auto);
+    grid-template-rows:auto;
+    grid-gap: 0px;
+
+    grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c b b b b"
+    "c c c c d d d d"
+    "e e e e d d d d"
+    "e e e e f f f f"
+    "g g g g f f f f"
+    "g g g g h h h h"
+    ;
+}
+
+.grid_image_1{
+grid-area:a ;
+}
+.grid_image_2{
+    grid-area:b ;
+
+}
+.grid_image_3{
+    grid-area:c ;
+
+}
+.grid_image_4{
+    grid-area:d ;
+
+}
+.grid_image_5{
+    grid-area:e ;
+
+}
+.grid_image_6{
+    grid-area:f ;
+
+}
+.grid_image_7{
+    grid-area:g ;
+}
+.grid_image_8{
+    grid-area:h;
+}
+.grid_images{
+height: 100%;
+width:100%;
+}
+#works h2{
+    color:#39b54a;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0px;
+}
+#contact{
+    margin-top: 0px;
+
+}
+a{
+    text-decoration: none;
+}
+#contact h2{
+    text-align: center;
+    font-weight: ;
+   
+}
+#contact div{
+
+
+
+   background-color:#39b54a;
+   color: whitesmoke;
+   width: fit-content;
+   padding:10px;
+   margin: auto;
+}
+
+footer{
+    padding-top: 20px;
+    margin-top: -2px;
+    background: #111111;
+display: flex;
+    color: whitesmoke;
+}
+.bg{
+    width: fit-content;
+    padding: 3rem;
+    margin: auto;
+    background: #151515;
+}
+#info{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+  margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer h4,p{
+    text-align: center;
+}
+#info h4{
+   color: whitesmoke;
+    font-size: 1rem;
+}
+#info h3{
+    font-size: 1rem;
+    color:#39b54a ;
+}
+#info div{
+    margin: 20px;
+}
+footer aside{
+
+}
+
+#foot_logo{
+    width: 180px;
+
+    margin: 20px 0px 20px 20px ;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+    .front_bar_socials{
+        display:none ;
+    }
+    .projects{
+        display:flex ;
+        
+        flex-direction: column;
+
+        margin: auto;
+    }
+    .projects div{
+        margin: 20px;
+    }
+    .divider_hr{
+        display:none ;
+    }
+    .our_services{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .th{
+        display: block;
+    }
+    .grid{
+        margin: 0px 50px;
+
+    }
+    #info{
+       
+        flex-direction: column;
+    }
+ 
+}
+#foot_logo{
+    width: 130px;
+    
+}
+
+@media only screen and (max-width:400px){
+    .menu{
+        display:none ;
+    }
+    #logo{
+        width: 130px;
+    }
+    .nav-bar{
+        padding: 2px;
+    }
+    .fa-bars {
+        padding-left: 2px;
+        padding-top: 5px;
+    }
+    .sticky_menu {
+       
+        padding: 5px 10px;
+
+    }
+    .top_page_background h3{
+     font-size: 2rem;
+        
+        
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-height:400px){
+    .top_page_background_text{
+    
+       margin-top: 0px;
+      
+      }
+}
