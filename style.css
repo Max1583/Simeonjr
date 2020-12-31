@@ -198,6 +198,7 @@ margin-right: 20px;
     text-align: center;
     margin-top: 0px;
     background-color: #39b54a;
+    
     display: flex;
     flex-direction: column;
 
@@ -474,6 +475,73 @@ div h5{
    background: whitesmoke;
     
 }
+.fa-arrow-up{
+    color: #39b54a;
+background: #111111;
+padding: 15px 12px;
+font-size: 25px;
+border-radius: 2px;
+
+    
+}
+.fa-arrow-up:hover{
+    color: whitesmoke;
+background: #111111;
+
+
+    
+}
+.top{
+   position: fixed; 
+right: 0;
+bottom:50px;
+margin: 30px;
+
+}
+
+.divi2{
+background:#39b54a ;
+height: 10px;
+width: 90px;
+border-radius:0px 10px 10px 0px;
+transform: rotate(90deg);
+margin-left:20px ;
+margin-top: 14px;
+}
+
+.divi1{
+    background:whitesmoke ;
+    height: 10px;
+    width: 150px;
+    border-radius:10px 0px  0px 10px;
+    transform: rotate(90deg);
+}
+
+.divi3{
+    background: #151515; 
+    height: 10px;
+    width: 40px;
+    border-radius:10px 0px 0px 10px;
+    transform: rotate(90deg);
+    margin-left:20px ;
+    margin-top: 14px;
+    }
+    
+    .divi4{
+        background:whitesmoke ;
+        
+        height: 10px;
+        margin-top: 20px;
+        width: 60px;
+        border-radius:0px 10px 10px 0px;
+        transform: rotate(90deg);
+    }
+
+
+
+
+
+
 
 
 @media only screen and (max-width:600px){
