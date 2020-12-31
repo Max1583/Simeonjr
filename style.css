@@ -275,10 +275,6 @@ header {
 
 
 
-hr {
-    width: 50%;
-    margin: auto;
-}
 
 .our_services {
     background-color: whitesmoke;
@@ -450,6 +446,8 @@ footer {
     margin-top: -2px;
     display: flex;
     color: whitesmoke;
+        background: url(https://i.ibb.co/WkN38D5/contact-bg.jpg);
+
 }
 
 
